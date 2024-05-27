@@ -51,12 +51,12 @@ span{
     font-size: 27px;
     font-weight: 600;
     margin-left: 25px;
-    border-radius: 5px;
+    border-radius: none;
 }
 .menu li a:hover{
-    color: rgb(223, 222, 232);
+    color: #fff;
     padding: 2px 5px;
-    background: blue;
+    background: rgb(4, 70, 111);
     border: 2px solid #fff;
 }
 
