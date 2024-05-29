@@ -5,6 +5,7 @@
 }
 
 .container{
+    position: fixed;
     height: 100vh;
     width: 100%;
     background-size: cover;
@@ -13,6 +14,7 @@
 .navbar{
     display: flex;
     align-items: center;
+    position: static;
     justify-content: space-between;
     padding: 30px 80px;
     cursor: pointer;
@@ -46,6 +48,7 @@ span{
 .menu li a{
     text-decoration: none;
     color: #fff;
+    position: sticky;
     font-size: 27px;
     font-weight: 600;
     margin-left: 25px;
